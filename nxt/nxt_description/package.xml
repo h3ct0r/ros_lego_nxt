@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <name>nxt_description</name>
+  <version>1.1.0</version>
+  <description>
+    nxt_description contains the nxt collada models for nxt_ros. The
+    collada models are created from ldraw.org part models and are named
+    by part number.
+  </description>
+
+  <maintainer email="thomas@todo.todo">Thomas Poulet</maintainer>
+  <author>Melonee Wise</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>

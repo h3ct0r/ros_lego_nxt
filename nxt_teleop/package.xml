@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>nxt_teleop</name>
+  <version>1.1.0</version>
+  <description>
+    nxt_teleop provides keyboard and joystick interfaces for some of nxt robots provided in the nxt_robots stack.
+  </description>
+
+  <maintainer email="thomas@todo.todo">Thomas Poulet</maintainer>
+  <author>Wim Meeussen</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>joy</build_depend>
+  <build_depend>nxt_ros</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>joy</run_depend>
+  <run_depend>nxt_ros</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+</package>

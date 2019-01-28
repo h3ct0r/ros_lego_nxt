@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>nxt_ros_test</name>
+  <version>1.1.0</version>
+  <description>
+    A sample configuration and launch file to test the nxt_ros package.
+  </description>
+
+  <maintainer email="thomas@todo.todo">Thomas Poulet</maintainer>
+  <author>David Butterworth</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>nxt_ros</build_depend>
+  <build_depend>rospy</build_depend>
+
+  <run_depend>nxt_ros</run_depend>
+  <run_depend>rospy</run_depend>
+</package>

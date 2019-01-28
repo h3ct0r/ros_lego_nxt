@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package>
+  <name>nxt_robots_gyro_car</name>
+  <version>1.1.0</version>
+  <description>
+    The nxt_robot_gyro_car package provides a starting nxt robot. For instructions on building
+    the nxt robot load the gyro_car.lxf into the LEGO Digital Designer
+    <a href="http://ldd.lego.com/">(ldd.lego.com)</a> and select the building guide mode. This robot
+    uses the <a href="http://mindstorms.lego.com/en-us/Products/Ultrasonic+Sensor/9846.aspx"> nxt lego ultrasonic sensor</a>,
+    the <a href="http://www.hitechnic.com/cgi-bin/commerce.cgi?preadd=action&amp;key=NGY1044"> hitechnic gryo sensor</a>,
+    and the <a href="http://www.hitechnic.com/cgi-bin/commerce.cgi?preadd=action&amp;key=NAC1040"> hitechnic acclerometer sensor</a>.
+  </description>
+
+  <maintainer email="thomas@todo.todo">Thomas Poulet</maintainer>
+  <author>Melonee Wise</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>nxt_controllers</build_depend>
+  <build_depend>nxt_description</build_depend>
+  <build_depend>nxt_ros</build_depend>
+  <build_depend>robot_pose_ekf</build_depend>
+  <build_depend>robot_state_publisher</build_depend>
+
+  <run_depend>nxt_controllers</run_depend>
+  <run_depend>nxt_description</run_depend>
+  <run_depend>nxt_ros</run_depend>
+  <run_depend>robot_pose_ekf</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+</package>
